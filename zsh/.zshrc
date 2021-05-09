@@ -49,3 +49,5 @@ source ~/.zsh/exports.zsh
 if [ -e "$HOME/.zsh/local.zsh" ]; then # If local.zsh exists, source it
   source ~/.zsh/local.zsh
 fi
+
+export EDITOR="code --wait"
