@@ -1,2 +1,1 @@
-export PATH="$HOME/bin:$PATH:/opt/local/bin"
-
+/home/michael/.zshenv
