@@ -1,0 +1,8 @@
+linux:
+  links:
+    init.lua: "{{dirs.base.config}}/nvim/init.lua"
+    lua: "{{dirs.base.config}}/nvim/lua"
+    lazyvim.json: "{{dirs.base.config}}/nvim/lazyvim.json"
+    lazy-lock.json: "{{dirs.base.config}}/nvim/lazy-lock.json"
+  installs:
+    cmd: yay -S --noconfirm neovim

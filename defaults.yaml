@@ -1,0 +1,4 @@
+linux[whoami.distro^="Ubuntu"]:
+  installs: sudo apt install -y {{ name }}
+linux[whoami.distro^="Arch"]:
+  installs: yay -S --noconfirm {{ name }}
