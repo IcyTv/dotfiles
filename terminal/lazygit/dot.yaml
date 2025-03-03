@@ -1,0 +1,3 @@
+linux:
+  links:
+    config.yml: "{{ dirs.base.config }}/lazygit/config.yml"
