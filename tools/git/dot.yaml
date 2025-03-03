@@ -1,0 +1,4 @@
+global:
+  links:
+    gitconfig: ~/.gitconfig
+  installs: false
