@@ -1,0 +1,10 @@
+linux:
+  links:
+    zfunc: "{{dirs.base.config}}/zsh/zfunc"
+    zshrc: ~/.zshrc
+  depends:
+    - starship
+    - pay-respects
+
+windows:
+  installs: false
