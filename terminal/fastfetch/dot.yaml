@@ -1,3 +1,4 @@
 linux:
   links:
     config.jsonc: "{{ dirs.base.config }}/fastfetch/config.jsonc"
+    waifu.txt: "{{ dirs.base.config }}/fastfetch/waifu.txt"

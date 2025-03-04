@@ -368,8 +368,7 @@ eval "$(starship init zsh)"
 
 # reporting tools - install when not installed
 #neofetch
-fastfetch -l arch -c none -s none | lolcat --force | fastfetch --raw - --logo-width 48 --logo-height 32
-#fastfetch
+fastfetch
 #screenfetch
 #alsi
 #paleofetch

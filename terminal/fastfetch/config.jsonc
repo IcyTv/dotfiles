@@ -27,8 +27,18 @@
     "localip",
     "battery",
     "poweradapter",
-//    "locale",
     "break",
-    "colors"
-  ]
+    "colors",
+  ],
+  "logo": {
+    "type": "file-raw",
+    "width": 65,
+    "height": 30,
+    "source": "~/.config/fastfetch/waifu.txt",
+  },
+  "display": {
+    "key": {
+      "type": "both",
+    },
+  },
 }
