@@ -1,0 +1,3 @@
+linux:
+  links:
+    config.jsonc: "{{ dirs.base.config }}/fastfetch/config.jsonc"
