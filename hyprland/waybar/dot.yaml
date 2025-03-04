@@ -1,0 +1,9 @@
+global:
+  installs: false
+
+linux:
+  links:
+    config.jsonc: "{{ dirs.base.config }}/waybar/config.jsonc"
+    mocha.css: "{{ dirs.base.config }}/waybar/mocha.css"
+    style.css: "{{ dirs.base.config }}/waybar/style.css"
+    scripts: "{{ dirs.base.config }}/waybar/scripts"

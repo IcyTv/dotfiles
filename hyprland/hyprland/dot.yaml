@@ -1,0 +1,6 @@
+global:
+  installs: false
+
+linux:
+  links:
+    hyprland.conf: "{{ dirs.base.config }}/hypr/hyprland.conf"

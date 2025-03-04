@@ -1,0 +1,7 @@
+global:
+  installs: false
+
+linux:
+  links:
+    config: "{{ dirs.base.config }}/wofi/config"
+    style.css: "{{ dirs.base.config }}/wofi/style.css"
