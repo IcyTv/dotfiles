@@ -37,6 +37,7 @@
 
 #custom-music,
 #tray,
+#custom-grimshot,
 #clock,
 #bluetooth,
 #pulseaudio,
@@ -74,10 +75,14 @@
   border-radius: 0;
 }
 
-#pulseaudio {
-  color: @maroon;
+#custom-grimshot {
+  color: @mauve;
   border-radius: 1rem 0px 0px 1rem;
   margin-left: 1rem;
+}
+
+#pulseaudio {
+  color: @maroon;
 }
 
 #custom-music {

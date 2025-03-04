@@ -6,6 +6,7 @@
   "modules-left": ["hyprland/workspaces"],
   "modules-center": ["custom/music"],
   "modules-right": [
+    "custom/grimshot",
     "pulseaudio",
     "clock",
     "tray",
@@ -17,9 +18,20 @@
     "disable-scroll": true,
     "sort-by-name": true,
     "all-outputs": true,
-    "format": " {icon} ",
+    "format": " {windows} ",
     "format-icons": {
       "default": "",
+    },
+    "window-rewrite-default": "",
+    "window-rewrite": {
+      "title<.*youtube.*>": "󰗃",
+      "title<.*github.*>": "󰊤",
+      "class<firefox>": "󰈹",
+      "code": "",
+      "class<kitty> title<.*nvim.*>": "",
+      "class<kitty>": "",
+      "class<discord>": "󰙯",
+      "class<Spotify>": "󰓇",
     },
   },
   "tray": {
@@ -45,6 +57,11 @@
     "exec": "playerctl metadata --format='{{ title }}'",
     "on-click": "playerctl play-pause",
     "max-length": 50,
+  },
+  "custom/grimshot": {
+    "tooltip": false,
+    "on-click": "grim -g \"$(slurp)\" - | swappy -f -",
+    "format": "󰄀",
   },
   "clock": {
     "timezone": "Europe/Berlin",
