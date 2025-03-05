@@ -363,6 +363,8 @@ export PATH
 export _PR_PACKAGE_MANAGER=pacman
 eval "$(pay-respects zsh --alias)"
 
+eval "$(gh copilot alias -- zsh)"
+
 # STARSHIP
 eval "$(starship init zsh)"
 
