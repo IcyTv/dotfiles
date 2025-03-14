@@ -9,3 +9,5 @@
 	s = status
 [commit]
 	gpgsign = true
+[core]
+	excludesfile = ~/.gitignore

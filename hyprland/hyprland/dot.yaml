@@ -4,3 +4,5 @@ global:
 linux:
   links:
     hyprland.conf: "{{ dirs.base.config }}/hypr/hyprland.conf"
+    load_layout.py: "{{ dirs.base.config }}/hypr/load_layout"
+    save_layout.sh: "{{ dirs.base.config }}/hypr/save_layout"
