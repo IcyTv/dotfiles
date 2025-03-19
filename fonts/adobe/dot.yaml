@@ -1,0 +1,4 @@
+linux[whoami.distro^="Arch"]:
+  installs: yay -S --noconfirm adobe-source-code-pro-fonts
+windows:
+  installs: powershell -noexit -executionpolicy bypass -File ./install.ps1
