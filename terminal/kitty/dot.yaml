@@ -1,0 +1,10 @@
+global:
+  depends:
+    - ../../fonts/adobe
+
+linux:
+  links:
+    kitty.conf: ~/.config/kitty/kitty.conf
+
+linux[whoami.distro^="Arch"]:
+  installs: yay -S --noconfirm kitty
